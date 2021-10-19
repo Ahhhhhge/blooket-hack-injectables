@@ -2,24 +2,24 @@
 	await ModMenu.init();
 	ModMenu.menu.arr.push(new ModMenu.MenuTree('glixzzy', [
 		new ModMenu.MenuTree('Cafe', [
-			new ModMenu.MenuButton('Get Coins', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/getCoins.js").then((res) => res.text().then((t) => eval(t)))),
-			new ModMenu.MenuButton('Infinite Food Level', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/infiniteFoodLevel.js").then((res) => res.text().then((t) => eval(t)))),
-			new ModMenu.MenuButton('Stock Infinite Food', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/stockInfiniteFood.js").then((res) => res.text().then((t) => eval(t)))),
-			new ModMenu.MenuButton('End Game', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/endGame.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Get Coins', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/cafe/getCoins.js").then((res) => res.text().then((t) => eval(t))),
+			new ModMenu.MenuButton('Infinite Food Level', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/cafe/infiniteFoodLevel.js").then((res) => res.text().then((t) => eval(t))),
+			new ModMenu.MenuButton('Stock Infinite Food', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/cafe/stockInfiniteFood.js").then((res) => res.text().then((t) => eval(t))),
+			new ModMenu.MenuButton('End Game', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/cafe/endGame.js").then((res) => res.text().then((t) => eval(t))),
 		]),
 		new ModMenu.MenuTree('Crypto', [
-			new ModMenu.MenuButton('Get Crypto', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/crypto/getCrypto.js").then((res) => res.text().then((t) => eval(t)))),
-			new ModMenu.MenuButton('Hack Other Users Password', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/crypto/hackOtherUsersPassword.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Get Crypto', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/crypto/getCrypto.js").then((res) => res.text().then((t) => eval(t))),
+			new ModMenu.MenuButton('Hack Other Users Password', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/crypto/hackOtherUsersPassword.js").then((res) => res.text().then((t) => eval(t))),
 		]),
 		new ModMenu.MenuTree('Factory', [
-			new ModMenu.MenuButton('Get Cash', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/factory/getCash.js").then((res) => res.text().then((t) => eval(t)))),
-			new ModMenu.MenuButton('Get Mega Bot', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/factory/getMegaBot.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Get Cash', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/factory/getCash.js").then((res) => res.text().then((t) => eval(t))),
+			new ModMenu.MenuButton('Get Mega Bot', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/factory/getMegaBot.js").then((res) => res.text().then((t) => eval(t))),
 		]),
 		new ModMenu.MenuTree('Fishing Frenzy', [
-			new ModMenu.MenuButton('Set Weight', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/fishing-frenzy/setWeight.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Set Weight', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/fishing-frenzy/setWeight.js").then((res) => res.text().then((t) => eval(t))),
 		]),
 		new ModMenu.MenuTree('Global', [
-			new ModMenu.MenuButton('Add Tokens', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Add Tokens', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t))),
 			new ModMenu.MenuButton('Bypass Random Name', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/global/bypassRandomName.js").then((res) => res.text().then((t) => eval(t)))),
 			new ModMenu.MenuButton('Flood Games', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/global/floodGames.js").then((res) => res.text().then((t) => eval(t)))),
 			new ModMenu.MenuButton('Get All Blooks in Game', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/global/getAllBlooksInGame.js").then((res) => res.text().then((t) => eval(t)))),
@@ -28,7 +28,7 @@
 		]),
 		new ModMenu.MenuTree('Gold', [
 			new ModMenu.MenuButton('Get Gold', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/gold/getGold.js").then((res) => res.text().then((t) => eval(t))),
-			new ModMenu.MenuButton('Chest ESP', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/gold/chest-ESP.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Chest ESP', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/gold/chest-ESP.js").then((res) => res.text().then((t) => eval(t))),
 		]),
 		new ModMenu.MenuTree('Racing', [
 			new ModMenu.MenuButton('Instant Win', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/racing/instantWin.js").then((res) => res.text().then((t) => eval(t)))),
