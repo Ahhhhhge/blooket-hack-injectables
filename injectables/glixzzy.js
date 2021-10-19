@@ -27,7 +27,7 @@
 			new ModMenu.MenuButton('Spam Open Boxes', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/global/spamOpenBoxes.js").then((res) => res.text().then((t) => eval(t)))),
 		]),
 		new ModMenu.MenuTree('Gold', [
-			new ModMenu.MenuButton('Get Gold', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/gold/getGold.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Get Gold', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/gold/getGold.js").then((res) => res.text().then((t) => eval(t))),
 			new ModMenu.MenuButton('Chest ESP', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/gold/chest-ESP.js").then((res) => res.text().then((t) => eval(t)))),
 		]),
 		new ModMenu.MenuTree('Racing', [
