@@ -1,5 +1,6 @@
 (async() => {
 	await ModMenu.init();
+	ModMenu.setShowing(true);
 	ModMenu.menu.arr.push(new ModMenu.MenuTree('glixzzy', [
 		new ModMenu.MenuTree('Cafe', [
 			new ModMenu.MenuButton('Get Coins', () => fetch("https://raw.githubusercontent.com/LoganMuller0/blooket-rework/main/cafe/getCoins.js").then((res) => res.text().then((t) => eval(t))),
